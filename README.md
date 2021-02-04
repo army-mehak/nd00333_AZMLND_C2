@@ -31,5 +31,5 @@ The main parts of the Operationalizing machine learning model includes training 
 ## Screen Recording
 The video can be found here -> https://www.youtube.com/watch?hd=1&v=NI3SbTBsVFU
 
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+## Future Work
+This project can be further built into a web application where external application could interact using API provided along with key. This project can be further deep dived and implemented ro cater multiple applications.
