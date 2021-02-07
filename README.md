@@ -27,9 +27,14 @@ The main parts of the Operationalizing machine learning model includes training 
   7. Pipeline consumption requires an authentication header to submit a POST request to HTTP endpoint. A new pipeline run gets created through the trigger of post request.
 
 ## Key Steps
-The following are the key steps involved along with some screenshots.
+The following are the key steps involved along with some screenshots:
 
 ### Model Training
+The first thing in any machine learning project is to upload and register the dataset. The Bank Marketing dataset was uploaded and registered through Azure ML Studio. The Figure 3 shows how the dataset was uploaded successfully. 
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s1.png)
+<p align="center">
+  #tsting
+</p>
 
 ## Screen Recording
 The video can be found here -> https://www.youtube.com/watch?hd=1&v=NI3SbTBsVFU
