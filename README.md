@@ -37,20 +37,24 @@ The following are the key steps involved along with some screenshots:
 
 ### Model Training
 The first thing in any machine learning project is to upload and register the dataset. The Bank Marketing dataset was uploaded and registered through Azure ML Studio. The Figure 3 shows how the dataset was uploaded successfully. 
+
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s1.PNG)
 <p align="center">
  Figure 3: 'bank-marketing' dataset uploaded successfully
 </p>
 After completing the dataset, an AutoML run was created to classify the bank marketing dataset. Figure 4 shows that AutoML ran successfully.
+
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s2.PNG)
 <p align="center">
  Figure 4: AutoML experiment ran successfully
 </p>
 The AutoML experiment ran many algorithms with different combination of hyperparamaters. The best model found was Voting Ensemble with ___ %. Figure 5 and 6 highlights the best model.
+
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s3-1.PNG)
 <p align="center">
  Figure 5: Best model - Voting Ensemble
 </p>
+
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s3-2.PNG)
 <p align="center">
  Figure 6: Best model - Voting Ensemble
