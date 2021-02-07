@@ -6,6 +6,9 @@ The main parts of the Operationalizing machine learning model includes training 
 
 ### Model training and deployment included of the following steps:
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/Model.png)
+<p align="center">
+ Figure 2: Model Training & Deployment Architectural Diagram
+</p>
   1. Created a compute cluster (compute-cluster1) using Standard_DS12_v2 as a default cluster. Along with that, exit criterion was set 1 training hour and concurrency to 5.
   2. Uploaded the dataset for Bank-marketing using the link provided. It was named 'bank-marketing'.
   3. Created an AutoML run using the compute cluster and the dataset that performed Classification. The best model found was Voting Ensemble.
@@ -18,6 +21,9 @@ The main parts of the Operationalizing machine learning model includes training 
 
 ### Creating, Publishing & Consuming pipeline included of the following steps:
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/pipeline.png)
+<p align="center">
+ Figure 2: Creating, Publishing & Consuming pipeline Architectural Diagram
+</p>
   1. A compute target called 'compute-target1' was created to run the jupyter notebook and as well as to training the AutoML step.
   2. Next, using the existing bank-marketing dataset if found or else creating a dataset from the URL.
   3. An automl step was creating and fed in the required configuration which had the label column as 'y'.
@@ -31,9 +37,9 @@ The following are the key steps involved along with some screenshots:
 
 ### Model Training
 The first thing in any machine learning project is to upload and register the dataset. The Bank Marketing dataset was uploaded and registered through Azure ML Studio. The Figure 3 shows how the dataset was uploaded successfully. 
-![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s1.png)
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s1.PNG)
 <p align="center">
-  #tsting
+ Figure 2: 'bank-marketing' dataset uploaded successfully
 </p>
 
 ## Screen Recording
