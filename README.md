@@ -7,7 +7,7 @@ The main parts of the Operationalizing machine learning model includes training 
 ### Model training and deployment included of the following steps:
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/Model.png)
 <p align="center">
- Figure 2: Model Training & Deployment Architectural Diagram
+ Figure 1: Model Training & Deployment Architectural Diagram
 </p>
   1. Created a compute cluster (compute-cluster1) using Standard_DS12_v2 as a default cluster. Along with that, exit criterion was set 1 training hour and concurrency to 5.
   2. Uploaded the dataset for Bank-marketing using the link provided. It was named 'bank-marketing'.
@@ -39,7 +39,21 @@ The following are the key steps involved along with some screenshots:
 The first thing in any machine learning project is to upload and register the dataset. The Bank Marketing dataset was uploaded and registered through Azure ML Studio. The Figure 3 shows how the dataset was uploaded successfully. 
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s1.PNG)
 <p align="center">
- Figure 2: 'bank-marketing' dataset uploaded successfully
+ Figure 3: 'bank-marketing' dataset uploaded successfully
+</p>
+After completing the dataset, an AutoML run was created to classify the bank marketing dataset. Figure 4 shows that AutoML ran successfully.
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s2.PNG)
+<p align="center">
+ Figure 4: AutoML experiment ran successfully
+</p>
+The AutoML experiment ran many algorithms with different combination of hyperparamaters. The best model found was Voting Ensemble with ___ %. Figure 5 and 6 highlights the best model.
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s3-1.PNG)
+<p align="center">
+ Figure 5: Best model - Voting Ensemble
+</p>
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/images-1/s3-2.PNG)
+<p align="center">
+ Figure 6: Best model - Voting Ensemble
 </p>
 
 ## Screen Recording
