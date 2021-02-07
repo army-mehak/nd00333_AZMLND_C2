@@ -133,7 +133,7 @@ Figure 15 shows the pipeline representation. Bank data is taken as input for the
 ### Consuming Pipeline
 After publishing the pipeline, it can be consumed using the REST Endpoint URL. This can be done by sending the post requested. We send in the post request using Azure ML Sdk through the jupyter notebook. After submitting the request, we can see a new pipeline run in the studio which created a new AutoML model for training. 
 
-![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/slast.PNG)
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/last.PNG)
 <p align="center">
  Figure 17: Completed Run from POST request
 </p>
