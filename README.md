@@ -99,7 +99,7 @@ In the next step, endpoint.py file ran where authentication key (primary key) an
 The next part of project required to run a jupyter notebook. In this part, a pipeline was created and published so that it can be easily used by other applications through HTTP URI. 
 After running the cells which had computer cluster created as well as auto ml configuration setup, an auto ml step was created. This Auto ML step was passed onto a pipeline object which can be seen through Figure 12.
 
-![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/s13.PNG)
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/s13.png)
 <p align="center">
  Figure 12: Run Details Widget
 </p>
