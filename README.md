@@ -99,6 +99,8 @@ In the next step, endpoint.py file ran where authentication key (primary key) an
 The next part of project required to run a jupyter notebook. In this part, a pipeline was created and published so that it can be easily used by other applications through HTTP URI. 
 After running the cells which had computer cluster created as well as auto ml configuration setup, an auto ml step was created. This Auto ML step was passed onto a pipeline object which can be seen through Figure 12.
 
+![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/run-widget.png)
+
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/s13.png)
 <p align="center">
  Figure 12: Run Details Widget
@@ -114,7 +116,7 @@ The pipeline was published by running the publish_pipeline() method that created
 
 ![alt text](https://github.com/army-mehak/nd00333_AZMLND_C2/blob/master/img/s11.PNG)
 <p align="center">
- Figure 14: bank marketing pipeline created and active
+ Figure 14: bank marketing pipeline active
 </p>
 
 Figure 15 shows the pipeline representation. Bank data is taken as input for the automl_module; thus, generating a trained model which has the best accuracy.
